@@ -5,7 +5,7 @@
  * followed by a new line except q and e
  * Return: Always 0
  */
-ine main(void)
+int main(void)
 {
 	char la;
 
