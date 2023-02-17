@@ -4,7 +4,7 @@
  * followed by a newline
  * return Always 0 (Success)
  */
-int main(void)
+int main()
 
 {
 	char ch;
@@ -15,5 +15,5 @@ int main(void)
 	for (ch = 'A'; ch <= 'Z'; ch++)
 		putchar(ch);
 	putchar('\n');
-	return (0);
+return (0);
 }
