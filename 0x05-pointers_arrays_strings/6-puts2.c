@@ -10,12 +10,12 @@
 void puts2(char *str)
 
 {
-	char *str;
+	char *str[];
 
 	for (; *str != '\0'; *str = +2)
 	{
 		_putchar(*str);
 	}
-	_putchar('\n')
+	_putchar('\n');
 
 }
