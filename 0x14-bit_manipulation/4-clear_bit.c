@@ -5,7 +5,7 @@
  * clear_bit - sets value to 0 at a given index
  * @n: number to evaluate
  * @index: given index
- * Return: 0 
+ * Return: 0
  */
 
 int clear_bit(unsigned long int *n, unsigned int index)
@@ -15,4 +15,4 @@ int clear_bit(unsigned long int *n, unsigned int index)
 	*n = (~(1UL << index) & *n);
 	return (1);
 
-}	
+}
